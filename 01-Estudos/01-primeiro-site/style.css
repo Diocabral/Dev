@@ -1,0 +1,62 @@
+body {
+    background-color: #1a1a1a; /* Fundo escuro (estilo hacker/dev) */
+    color: #ffffff; /* Texto branco */
+    font-family: Arial, sans-serif; /* Fonte mais limpa */
+    text-align: center; /* Tudo centrado */
+    margin-top: 100px; /* Empurrar tudo para baixo um bocado */
+}
+
+h1 {
+    color: #00ff88; /* Um verde neon para o título */
+    font-size: 50px;
+}
+
+.contentor {
+    display: flex;  /* Ativa o modo Flexbox: coloca os filhos em linha */
+    justify-content: center;    /* Centra os filhos horizontalmente no ecrã */
+    gap: 50px;  /* Cria um espaço de 50px entre os cartões */
+    align-content: center;  /* Alinha verticalmente pelo centro */
+    height: 100vh;  /* Força o contentor a ter a altura total do ecrã */
+}
+
+.cartao {
+    background-color: #2d2d2d; /* Cinza um pouco mais claro que o fundo */
+    width: 300px; /* Largura fixa */
+                /*MARGIN:  Isto centra a caixa horizontalmente */
+    padding: 20px; /* Espaço interno para o texto não colar à borda */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra para dar efeito 3D */
+}
+
+img {
+    border-radius: 50%; /* Transforma a imagem quadrada em círculo */
+    border: 3px solid #00ff88; /* Borda verde à volta da imagem */
+}
+
+button {
+    background-color: #00ff88;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* Muda o rato para a mãozinha */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffffff; /* Muda de cor quando passas o rato por cima */
+}
+
+.produto-destaque {
+    background-color:#ffffff;
+    color:#000000;
+    border: 1px solid #ddd;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.produto-destaque button {
+    background-color: #ff4500;
+}
+
+
